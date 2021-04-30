@@ -1,0 +1,46 @@
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+#navbar {
+    background-color: red;
+    height: 100px;
+}
+
+.navbar-div {
+    background-color: blue;
+    width: 200px;
+    margin: 20px;
+}
+
+#main-div {
+    background-color: blue;
+}
+
+p, label {
+    color: greenyellow;
+    font-size: 6mm;
+}
+
+.div-oranj-drol {
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.oranj-drol {
+    margin: 50px;
+}

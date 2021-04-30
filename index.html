@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>exo js</title>
+		<link rel="stylesheet" href="./styles/main.css">
+    </head>
+
+    <body>
+    	<div id="main" class="flex flex-column">
+    		<div id="navbar" class="flex flex-row">
+				<div class="flex navbar-div">
+					<a class="flex" href="./index.html"><img style="width: 200px;" src="./assets/images/oranj_drol.jpg"></a>
+				</div>
+				<div class="flex navbar-div flex-center">
+					<a class="flex" href="./pages/page1.html"><p class="flex">Images</p></a>
+				</div>
+				<div class="flex navbar-div flex-center">
+					<a class="flex" href="./pages/page2.html"><p class="flex">Calculatrice</p></a>
+				</div>
+				<div class="flex navbar-div flex-center">
+					<a class="flex" href="./pages/page1.html"><p class="flex">Bouton</p></a>
+				</div>
+    		</div>
+    		<div id="main-div" class="flex flex-column">
+				<form class="flex flex-center flex-column" action="">
+					<label for="nom">Nom:</label>
+					<input type="text" id="nom" name="nom">
+					<label for="prenom">Prenom:</label>
+					<input type="text" id="prenom" name="prenom">
+					<label for="age">Age:</label>
+					<input type="text" id="age" name="age">
+					<label for="sexe">Sexe:</label>
+					<input type="text" id="sexe" name="sexe">
+					<label for="ville">Ville:</label>
+					<input type="text" id="ville" name="ville">
+					<input onclick="formulaireConfirme()" type="submit" value="confirmer">
+				</form>
+			</div>
+    	</div>
+    </body>
+</html>
+<script src="./scripts/index.js"></script>
